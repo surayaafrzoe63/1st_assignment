@@ -7,6 +7,9 @@
   font-optical-sizing: auto;
 }
 
+
+/* nav section */
+
 #nav-section{
   max-width: 85%;
   width: 1360;
@@ -44,4 +47,73 @@
   font-weight: 600;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* bannaer section */
+
+#banner{
+  background-image: url(assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 674px;
+}
+.banner-container{
+max-width: 85%;
+  width: 1360px;
+  padding: 115px 120px 180px;
+  margin: 0 auto;
+ text-align: center;
+}
+.banner-btn{
+  padding:0 ;
+  font-size:16px ;
+  font-weight:500px; 
+  color:#469165 ;
+  border-radius:1000px ;
+  width: 229px;
+  height: 35px;
+  text-align: center;
+  cursor: pointer;
+}
+.banner-heading {
+  width: 770px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-heading h1{
+  font-size: 72px;
+  font-weight: 700;
+  color: white;
+  margin-top: 16px;
+}
+.banner-heading .heading-color{
+  color: #30B868;
+}
+.banner-heading p{
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  line-height: 24px;
+  margin-top: 16px;
+}
+.third-btn{
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+
+}
+.third{
+  width: 251px;
+  padding: 16.5px;
+}
+.fourth{
+  width: 198px;
+  padding: 16.5px;
+  background: transparent;
+  border: 1px solid white;
 }
