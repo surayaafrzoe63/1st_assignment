@@ -180,3 +180,56 @@ font-weight: 400;
 color: #627382;
 margin-bottom: 21.5px;
 }
+
+
+.brain-section{
+  max-width: 85%;
+  width: 1360px;
+  padding: 115px 120px 180px;
+  margin: 0 auto;
+ text-align: center;
+ display: flex;
+ justify-content: space-between;
+ gap: 60px;
+}
+.brain-img img{
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+}
+.brain-heading{
+ text-align: left;
+ width: 700px;
+ margin: 102px 0 102px;
+}
+.chekcircle{
+  display: flex;
+  gap: 6px;
+}
+.brain-heading h5{
+  font-size: 16px;
+  font-weight: 400;
+  color: #469165;
+  
+  margin-top: 16px;
+  
+}
+.brain-heading h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 16px;
+  
+  
+}
+.brain-heading .brain-info{
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+  margin-bottom: 40px;
+  
+}
+.brain-heading ul li{
+  margin-bottom: 16px;
+  list-style: none;
+}
