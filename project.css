@@ -117,3 +117,66 @@ max-width: 85%;
   background: transparent;
   border: 1px solid white;
 }
+#notes{
+  background-color: #62738210;
+}
+.notes-section{
+  max-width: 85%;
+  width: 1360px;
+  /* padding: 115px 120px 180px; */
+  margin: 0 auto;
+ text-align: center;
+}
+.notes-heading{
+ 
+  padding: 44px;
+}
+.notes-heading h1{
+  font-size: 48px;
+  font-weight: 700;
+}
+.notes-heading h1{
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.notes-heading p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+}
+.notes-card{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.cards{
+  padding: 24px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 8px 0 #00000006;
+  border: none;
+  border-radius: 8px;
+  max-width: 322px;
+ 
+}
+.image{
+  width: 60px;
+  height: 60px;
+  background-color: #F95555;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px auto 16px;
+}
+.cards h3{
+font-size: 24px;
+font-weight: 600;
+margin-bottom: 16px;
+}
+.cards p{
+font-size: 16px;
+font-weight: 400;
+color: #627382;
+margin-bottom: 21.5px;
+}
