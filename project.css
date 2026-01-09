@@ -48,6 +48,10 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.btn:hover{
+  transform: translateY(+5px) scale(1.03);
 }
 
 
@@ -77,8 +81,13 @@ max-width: 85%;
   width: 229px;
   height: 35px;
   text-align: center;
-  cursor: pointer;
+  cursor: pointer; border-radius: 12px;cursor: pointer;
+  transition: transform 0.3s ease;
 }
+.banner-btn:hover{
+  transform:translateY(+5px) scale(1.07);
+}
+
 .banner-heading {
   width: 770px;
   margin: 0 auto;
@@ -160,8 +169,13 @@ max-width: 85%;
   border: none;
   border-radius: 8px;
   max-width: 322px;
- 
+ cursor: pointer;
+  transition: transform 0.3s ease;
 }
+.cards:hover{
+  transform: translateY(+5px) scale(1.07);
+}
+
 .image{
   width: 60px;
   height: 60px;
@@ -199,8 +213,14 @@ margin-bottom: 21.5px;
 .brain-img img{
   width: 600px;
   height: 600px;
-  border-radius: 12px;
+  border-radius: 12px;cursor: pointer;
+  transition: transform 0.3s ease;
 }
+.brain-img img:hover{
+  transform:translateY(+5px) scale(1.07);
+}
+
+
 .brain-heading{
  text-align: left;
  margin: 0 ;
@@ -248,9 +268,11 @@ margin-bottom: 21.5px;
  text-align: center;
  background-color: #62738210;
  border-radius: 12px;
+ padding: 80px 0;
+ transition: transform 0.3s ease;
 }
-.access-section{
-  padding: 80px 0 ;
+.access-section:hover{
+  transform: translateY(+5px) scale(1.07);
 }
 .access-info h1{
   font-size: 40px;
@@ -270,3 +292,58 @@ margin-bottom: 21.5px;
   margin-top: 16px;
   color: #627382;
 }
+
+
+
+#footer{
+  background-color: #001931;
+  margin-top: 120px;
+   padding:120px 0 80px ;
+}
+.footer-section{
+  max-width: 85%;
+  width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-contain{
+  display: flex;
+  justify-content: space-between;
+ margin-bottom: 84px;
+}
+.footer-contain img{
+  width: 139px;
+  height: 60px;
+  
+}
+
+.footer-info p{
+  font-size: 20px;
+  font-weight:500 ;
+  color: white;
+  margin-bottom: 16px;
+}
+.Social-links ul{
+  display: flex;
+  gap: 16px;
+
+}
+.Social-links ul li{
+  list-style: none;
+}
+
+ .fa-brands{
+  background-color: white;
+  border-radius: 30%;
+ }
+ .line{
+  border: none;
+  height: 1px;
+  background-color: #62738295;
+  margin-bottom: 30px;
+ }
+ .footer-section .knowledge-vault{
+  color: #E5E7EB95;
+  font-size: 16px;
+  font-weight: 400;
+ }
